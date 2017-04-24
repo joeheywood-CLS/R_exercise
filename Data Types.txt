@@ -1,0 +1,65 @@
+Data Types
+* Vectors
+o Numeric
+o Character
+o Factor
+o Date
+o Time/date
+* Matrices
+* Lists
+* Data frames
+Open files
+* CSV
+* RData
+* SPSS/Stata
+* Excel
+Operations on data frames
+* Subsetting
+* Deleting rows
+* Stitching data frames
+* Merging data frames
+* Selecting columns
+* Recoding variables
+Basics Descriptive Statistics
+* Tabulations
+* Summary statistics: sum/averages/SD
+Data visualization
+* Simple bar and line charts using ggplot
+* Apply themes
+* Plotly
+RMarkdown
+* Create simple reports with at least one table and one chart
+Shiny
+* Create simple shiny app with at least one datatable and one chart
+Databases
+* Connect to database
+* Simple query to data frame
+Metadata/JSON
+
+
+Exercises:
+Vectors
+1. Create numeric vectors:
+o of values 1, 5, 6 and 7
+o of sequential values 1 to 10 and store it in variable called "tst"
+o of 10 values, each one 42
+o same as above, then multiply each value by 10
+o of 100 random integers between 1 and 50 and store it in variable called "tst2"
+2. Create a character vector of three values: "Centre", "Longitudinal", "Studies"
+3. Create a vector of 10 values, alternating 1 and 2, then convert it to a factor with 1 for yes and 2 for no.
+4. Create a vector of the first day of each year since 1995
+5. Subset tst to include only the first three values
+6. Subset tst2 to only include values less than 20 and more than 10
+Data frames
+1. Load data frames from the following files:
+a. votes.csv
+b. votes.sav
+c. votes.Rda
+2. Combine the first two above data frames into one
+3. Merge in the third data set joining by the 'Party' variable and store in variable votesDF
+4. Get the dimensions of tstDF
+5. Get the structure of votesDF. What do you need to do?
+6. What's the mean, median, standard deviation 
+7. How many women represent parties of over 100,000 members?
+8. Who got more votes? The left or the right?
+9. Oh. By the way – Jean Lassalle and Jacques Cheminade are both left wing.

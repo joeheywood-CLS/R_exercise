@@ -1,0 +1,5 @@
+"question", "code"
+1, "res <- all(q1 == c(1,5,6,7))"
+2, "res <- all(q2 == c(1:10))"
+3, "a3 <- factor(rep(1:2, 5), labels = c('yes', 'no'))"
+3, "res <- all(a3 == q3)"

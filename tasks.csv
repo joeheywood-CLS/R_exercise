@@ -1,0 +1,7 @@
+qNum,question,vrb
+1, "Create a numeric vector named q1 of values 1, 5, 6 and 7", "q1"
+2, "Create a numeric vector named q2 of sequential values from 1 to 10", "q2"
+3, "Create a numeric vector named q3 of 10 values, each one 42", "q3"
+4, "Multiply each item of q3 and multiply it by 10", "q3"
+5, "Create a vector named q5 of 100 random integers between 1 and 50", "q5"
+
